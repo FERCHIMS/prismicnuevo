@@ -1,0 +1,73 @@
+{
+  "format": "custom",
+  "id": "about",
+  "label": "about",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        }
+      },
+      "linkedin": {
+        "type": "Link",
+        "config": {
+          "label": "linkedin",
+          "placeholder": "",
+          "select": "media",
+          "allowText": true
+        }
+      },
+      "youtube": {
+        "type": "Link",
+        "config": {
+          "label": "youtube",
+          "placeholder": "",
+          "select": "media",
+          "allowText": true
+        }
+      },
+      "github": {
+        "type": "Link",
+        "config": {
+          "label": "github",
+          "placeholder": "",
+          "select": "media",
+          "allowText": true
+        }
+      },
+      "foto": {
+        "type": "Image",
+        "config": {
+          "label": "foto",
+          "constraint": {
+            "width": null,
+            "height": null
+          },
+          "thumbnails": []
+        }
+      },
+      "titulo": {
+        "type": "Text",
+        "config": {
+          "label": "titulo",
+          "placeholder": ""
+        }
+      },
+      "vercel": {
+        "type": "Link",
+        "config": {
+          "label": "vercel",
+          "placeholder": "Link Vercel",
+          "allowTargetBlank": true,
+          "select": null,
+          "allowText": true
+        }
+      }
+    }
+  }
+}

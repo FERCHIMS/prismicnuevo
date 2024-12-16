@@ -1,0 +1,33 @@
+{
+  "format": "custom",
+  "id": "home",
+  "label": "Home",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "banner_home_title": {
+        "type": "Text",
+        "config": {
+          "label": "Banner Home Title",
+          "placeholder": ""
+        }
+      },
+      "imagen_banner_home": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen Banner Home",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "parrafo": {
+        "type": "Text",
+        "config": {
+          "label": "Parrafo",
+          "placeholder": "Escribi un parrafo corto"
+        }
+      }
+    }
+  }
+}
