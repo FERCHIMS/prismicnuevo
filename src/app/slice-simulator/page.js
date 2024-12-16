@@ -1,4 +1,4 @@
-import {
+/* import {
   SliceSimulator,
   getSlices,
 } from "@slicemachine/adapter-next/simulator";
@@ -16,3 +16,4 @@ export default async function SliceSimulatorPage({ searchParams }) {
     </SliceSimulator>
   );
 }
+ */
